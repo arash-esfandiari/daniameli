@@ -182,7 +182,7 @@ export class Home extends Component {
                                 <div className="position-relative res-991-mt-30">
                                     {/* ttm_single_image-wrapper */}
                                     <div className="ttm_single_image-wrapper">
-                                        <img className="img-fluid" src="images/home-about.jpg" title="single-img-one" alt="single-img-one" />
+                                        <img className="img-fluid" src="static/images/home-about.jpg" title="single-img-one" alt="single-img-one" />
                                     </div>{/* ttm_single_image-wrapper end */}
                                     {/*featured-icon-box*/}
                                     <div className="about-overlay-01">
@@ -343,7 +343,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                                 {/* Responsive View image */}
-                                <img src="images/isf-furnace.jpg" className="ttm-equal-height-image img-fluid" alt="col-bgimage-1" />
+                                <img src="static/images/isf-furnace.jpg" className="ttm-equal-height-image img-fluid" alt="col-bgimage-1" />
                             </div>
                             <div className="col-lg-6 z-9">
                                 <div className="ttm-bgcolor-skincolor ttm-textcolor-white position-relative ttm-right-span">
