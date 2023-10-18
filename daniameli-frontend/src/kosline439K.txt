@@ -1,0 +1,768 @@
+
+<section className="ttm-row team-section res-991-pt-0 clearfix">
+    <div className="container-xl">
+        <div className="row align-items-center mb-5">
+            <div className="col-lg-5 res-991-text-center">
+                <div className="section-title style2 mb-0 clearfix">
+                    <div className="title-header mb-0">
+                        <h5>About us</h5>
+                        <h2 className="title">Meet our <span>Leadership</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-5 res-991-text-center">
+                <div className="title-desc">The positive distinction within the World Inspiring of Success and Connections of People and Organizations.</div>
+            </div>
+            <div className="col-lg-2 text-right res-991-text-center res-991-mt-20">
+                <a className="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey"> Read More </a>
+            </div>
+        </div>
+        <Slider className="row slick_slider ttm-boxes-spacing-30px" {...slick_slider} slidesToShow={3}>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" src="https://via.placeholder.com/480X520/444444.jpg" alt="" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Robert Liamss</a></h5>
+                        </div>
+                        <p className="category">Web Designer</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" src="https://via.placeholder.com/480X520/444444.jpg" alt="" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Jessica Ethan</a></h5>
+                        </div>
+                        <p className="category">Project Manager</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Amanda Brown</a></h5>
+                        </div>
+                        <p className="category">Consultant Officer</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Jennifer Garcia</a></h5>
+                        </div>
+                        <p className="category">IT Service Officer</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Robert Liam</a></h5>
+                        </div>
+                        <p className="category">Web Designer</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Jessica Ethan</a></h5>
+                        </div>
+                        <p className="category">Project Manager</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Amanda Brown</a></h5>
+                        </div>
+                        <p className="category">Consultant Officer</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Jennifer Garcia</a></h5>
+                        </div>
+                        <p className="category">IT Service Officer</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Robert Liam</a></h5>
+                        </div>
+                        <p className="category">Web Designer</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-team style1">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/480X520/444444.jpg" />
+                        <div className="ttm-social-links-wrapper">
+                            <ul className="social-icons list-inline">{/* social-icons */}
+                                <li className="social-facebook"><a ><i className="fab fa-facebook-f" /></a></li>
+                                <li className="social-twitter"><a ><i className="fab fa-twitter" /></a></li>
+                                <li className="social-linkedin"><a ><i className="fab fa-linkedin-in" /></a></li>
+                                <li className="social-googleplus"><a ><i className="fab fa-google-plus-g" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="featured-content box-shadow">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Team_detail'}>Jessica Ethan</a></h5>
+                        </div>
+                        <p className="category">Project Manager</p>{/* category */}
+                    </div>
+                </div>
+            </div>
+        </Slider>
+    </div>
+</section>
+{/* team-section end*/}
+{/* first-row-title-section */}
+<section className="ttm-row first-row-title-section ttm-bgcolor-darkgrey ttm-textcolor-white ttm-bg ttm-bgimage-yes bg-img4 clearfix">
+    <div className="ttm-row-wrapper-bg-layer ttm-bg-layer" />
+    <div className="container-xl">
+        <div className="row">{/* row */}
+            <div className="col-lg-8 offset-lg-2">
+                <div className="text-center">
+                    <div className="ttm-play-icon-btn mb-5">
+                        <div className="ttm-play-icon-animation">
+                            <a id="playbutton">
+                                <div className="ttm-icon ttm-bgcolor-white ttm-textcolor-skincolor ttm-icon_element-size-sm rounded-circle">
+                                    <i className="fas fa-play" />
+                                </div>
+                            </a>
+                            <div id="videobox">
+                                <i id="close-btn" className="fa fa-times"></i>
+                                <div id="video-wrapper">
+                                    <iframe width="500" height="500" src="https://www.youtube.com/embed/7e90gBu4pas" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* section-title */}
+                    <div className="section-title with-desc text-center clearfix">
+                        <div className="title-header">
+                            <h2 className="title">We Provide Outsourced IT Services For Small &amp; <span className="ttm-textcolor-white">Mid-Sized Business</span></h2>
+                        </div>
+                        <div className="title-desc">Appropriate for your specific business, making it easy for<br /> you to have quality IT services. What We Do</div>
+                    </div>{/* section-title end */}
+                    <div className="mt-5">
+                        <a className="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white">More Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{/* first-row-title-section end*/}
+{/* testimonial-section */}
+<section className="ttm-row zero-padding-section clearfix">
+    <div className="container-xl">
+        <div className="row no-gutters mt_100 res-991-mt-0">
+            <div className="col-md-6">
+                <div className="ttm-bgcolor-darkgrey ttm-textcolor-white z-11 position-relative h-100">
+                    <div className="layer-content">{/* layer-content */}
+                        <div className="spacing-2">{/* spacing-2 */}
+                            {/* section title */}
+                            <div className="section-title ttm with-desc clearfix">
+                                <div className="title-header">
+                                    <h5>What We Do</h5>
+                                    <h2 className="title">We help you to grow your business <span className="ttm-textcolor-white">Exponentially</span></h2>
+                                </div>
+                            </div>{/* section title end */}
+                            {/* progress-bar */}
+                            <div className="ttm-progress-bar">
+                                <div className="progress-bar-title float-left">UI/UX Design</div>{/* progress-bar-title */}
+                                <label className="float-right">90%</label>
+                                <MDBProgress className="w-100" material value={90}></MDBProgress>
+                            </div>
+                            {/* progress-bar END */}
+                            {/* progress-bar */}
+                            <div className="ttm-progress-bar">
+                                <div className="progress-bar-title float-left">App Development</div>{/* progress-bar-title */}
+                                <label className="float-right">80%</label>
+                                <MDBProgress className="w-100" material value={80}></MDBProgress>
+                            </div>
+                            {/* progress-bar END */}
+                        </div>{/* spacing-2 END */}
+                    </div>{/* layer-content END */}
+                </div>
+            </div>
+            <div className="col-md-6">
+                <div className="col-bg-img-two ttm-col-bgimage-yes ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-skincolor ttm-textcolor-white">
+                    <div className="ttm-col-wrapper-bg-layer ttm-bg-layer">
+                        <div className="ttm-bg-layer-inner" />
+                    </div>
+                    <div className="layer-content">
+                        <div className="testimonial-slide style1">
+                            <Slider className="row slick_slider" arrows={false} dots={true}>
+                                <div className="col-lg-12">
+                                    <div className="testimonials text-center">
+                                        <div className="testimonial-content">{/* testimonials-content */}
+                                            <div className="testimonial-avatar">
+                                                <div className="testimonial-img">{/* testimonials-img */}
+                                                    <img className="img-center" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" />
+                                                </div>
+                                            </div>
+                                            <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
+                                            <div className="ttm-ratting-star">
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />
+                                            </div>
+                                            <div className="testimonial-caption">{/* testimonials-caption */}
+                                                <h6>Victor Williamson</h6>
+                                                <label>Web Devloper</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-12">
+                                    <div className="testimonials text-center">
+                                        <div className="testimonial-content">{/* testimonials-content */}
+                                            <div className="testimonial-avatar">
+                                                <div className="testimonial-img">{/* testimonials-img */}
+                                                    <img className="img-center" src="https://via.placeholder.com/150X150/444444.jpg" alt="testimonial-img" />
+                                                </div>
+                                            </div>
+                                            <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
+                                            <div className="ttm-ratting-star">
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />
+                                            </div>
+                                            <div className="testimonial-caption">{/* testimonials-caption */}
+                                                <h6>Victor Williamson</h6>
+                                                <label>Web Devloper</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-12">
+                                    <div className="testimonials text-center">
+                                        <div className="testimonial-content">{/* testimonials-content */}
+                                            <div className="testimonial-avatar">
+                                                <div className="testimonial-img">{/* testimonials-img */}
+                                                    <img className="img-center" alt="testimonial-img" src="https://via.placeholder.com/150X150/444444.jpg" />
+                                                </div>
+                                            </div>
+                                            <blockquote>Our team discussed every single detail to make sure Creatives Planet is the most versatile and unique theme created so far. No coding skills.</blockquote>
+                                            <div className="ttm-ratting-star">
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />&nbsp;
+                                                <i className="fa fa-star" />
+                                            </div>
+                                            <div className="testimonial-caption">{/* testimonials-caption */}
+                                                <h6>Victor Williamson</h6>
+                                                <label>Web Devloper</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Slider>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{/* testimonial-section end */}
+{/* process-section */}
+<section className="ttm-row process-section clearfix">
+    <div className="container-xl">
+        <div className="row">
+            <div className="col-md-12">
+                {/* section title */}
+                <div className="section-title text-center with-desc clearfix">
+                    <div className="title-header">
+                        <h5>how it work</h5>
+                        <h2 className="title">Check Out Our Work <span>Process</span></h2>
+                    </div>
+                </div>{/* section title end */}
+            </div>
+        </div>
+        {/* row */}
+        <div className="row">
+            <div className="col-lg-12">
+                <div className="ttm-processbox-wrapper">
+                    <div className="ttm-processbox text-center">
+                        <div className="ttm-box-image">
+                            <img className="img-fluid" alt="step-one" title="step-one" src="https://via.placeholder.com/185X185/444444.jpg" />
+                            <div className="process-num">
+                                <span className="number">01</span>
+                            </div>
+                        </div>
+                        <div className="featured-content">
+                            <div className="featured-title"><h5>Choose a Service</h5></div>
+                            <div className="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat</div>
+                        </div>
+                    </div>
+                    <div className="ttm-processbox text-center">
+                        <div className="ttm-box-image">
+                            <img className="img-fluid" alt="step-two" title="step-two" src="https://via.placeholder.com/185X185/444444.jpg" />
+                            <div className="process-num">
+                                <span className="number">02</span>
+                            </div>
+                        </div>
+                        <div className="featured-content">
+                            <div className="featured-title"><h5>Request a Meeting</h5></div>
+                            <div className="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat</div>
+                        </div>
+                    </div>
+                    <div className="ttm-processbox text-center">
+                        <div className="ttm-box-image">
+                            <img className="img-fluid" alt="step-three" title="step-three" src="https://via.placeholder.com/185X185/444444.jpg" />
+                            <div className="process-num">
+                                <span className="number">03</span>
+                            </div>
+                        </div>
+                        <div className="featured-content">
+                            <div className="featured-title"><h5>Receive Custom Plan</h5></div>
+                            <div className="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat</div>
+                        </div>
+                    </div>
+                    <div className="ttm-processbox text-center res-991-mb-0">
+                        <div className="ttm-box-image">
+                            <img className="img-fluid" alt="step-four" title="step-four" src="https://via.placeholder.com/185X185/444444.jpg" />
+                            <div className="process-num">
+                                <span className="number">04</span>
+                            </div>
+                        </div>
+                        <div className="featured-content">
+                            <div className="featured-title"><h5>Let’s Make it Happen</h5></div>
+                            <div className="ttm-box-description">Aute irure dolor reprehenderit velit esse cillum dolore fugiat</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>{/* row end */}
+    </div>
+</section>
+{/* portfolio-section */}
+<section className="ttm-row bottomzero-padding-section  ttm-bg ttm-bgimage-yes bg-img5 ttm-bgcolor-skincolor clearfix">
+    <div className="ttm-row-wrapper-bg-layer ttm-bg-layer" />
+    <div className="container-xl pb-5 res-991-pb-0">
+        <div className="row align-items-center ttm-textcolor-white">
+            <div className="col-lg-5 res-991-text-center">
+                <div className="section-title style3 mb-0 clearfix">
+                    <div className="title-header mb-0">
+                        <h5>We Make Connections</h5>
+                        <h2 className="title">Explore recent <span className="ttm-textcolor-white">Projects</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-5 res-991-text-center">
+                <div className="title-desc">A project is a temporary endeavor with a defined beginning and end, scope, and assigned resources.</div>
+            </div>
+            <div className="col-lg-2 text-right res-991-text-center res-991-mt-20">
+                <a className="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-white"> Read More </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section className="ttm-row mt-10 zero-padding-section clearfix">
+    <div className="container-fluid p-0">
+        {isOpen && (
+            <Lightbox
+                mainSrc={images[photoIndex]}
+                nextSrc={images[(photoIndex + 1) % images.length]}
+                prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+                onCloseRequest={() => this.setState({ isOpen: false })}
+                onMovePrevRequest={() =>
+                    this.setState({
+                        photoIndex: (photoIndex + images.length - 1) % images.length,
+                    })
+                }
+                onMoveNextRequest={() =>
+                    this.setState({
+                        photoIndex: (photoIndex + 1) % images.length,
+                    })
+                }
+            />
+        )}
+        <Slider className="row slick_slider ttm-boxes-spacing-10px" {...slick_slider} slidesToShow={5}>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-portfolio style1">
+                    {/* featured-thumbnail */}
+                    <div className="featured-thumbnail">
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/600X750/444444.jpg" />
+                    </div>{/* featured-thumbnail end*/}
+                    {/* ttm-box-view-overlay */}
+                    <div className="ttm-box-view-overlay">
+                        <div className="featured-iconbox ttm-media-link">{/* ttm-media-link */}
+                            <a onClick={() => this.setState({ isOpen: true })} className="ttm_image"><i className="ti ti-search" /></a>
+                            <a href={process.env.PUBLIC_URL + '/Single_style1'} className="ttm_link"><i className="ti ti-link" /></a>
+                        </div>
+                    </div>{/* ttm-box-view-overlay end*/}
+                    <div className="featured-content">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_style1'}>Business Seminarsetwst</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                {/* featured-imagebox-portfolio */}
+                <div className="featured-imagebox featured-imagebox-portfolio style1">
+                    {/* featured-thumbnail */}
+                    <div className="featured-thumbnail">
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/600X750/444444.jpg" />
+                    </div>{/* featured-thumbnail end*/}
+                    {/* ttm-box-view-overlay */}
+                    <div className="ttm-box-view-overlay">
+                        <div className="featured-iconbox ttm-media-link">{/* ttm-media-link */}
+                            <a onClick={() => this.setState({ isOpen: true })}><i className="ti ti-search" /></a>
+                            <a href={process.env.PUBLIC_URL + '/Single_style1'} className="ttm_link"><i className="ti ti-link" /></a>
+                        </div>
+                    </div>{/* ttm-box-view-overlay end*/}
+                    <div className="featured-content">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_style1'}>IT Management</a></h5>
+                        </div>
+                    </div>
+                </div>{/* featured-thumbnail */}
+            </div>
+            <div className="ttm-box-col-wrapper">
+                {/* featured-imagebox-portfolio */}
+                <div className="featured-imagebox featured-imagebox-portfolio style1">
+                    {/* featured-thumbnail */}
+                    <div className="featured-thumbnail">
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/600X750/444444.jpg" />
+                    </div>{/* featured-thumbnail end*/}
+                    {/* ttm-box-view-overlay */}
+                    <div className="ttm-box-view-overlay">
+                        <div className="featured-iconbox ttm-media-link">{/* ttm-media-link */}
+                            <a onClick={() => this.setState({ isOpen: true })}><i className="ti ti-search" /></a>
+                            <a href={process.env.PUBLIC_URL + '/Single_style1'} className="ttm_link"><i className="ti ti-link" /></a>
+                        </div>
+                    </div>{/* ttm-box-view-overlay end*/}
+                    <div className="featured-content">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_style1'}>Cyber Security Analysis</a></h5>
+                        </div>
+                    </div>
+                </div>{/* featured-thumbnail */}
+            </div>
+            <div className="ttm-box-col-wrapper">
+                {/* featured-imagebox-portfolio */}
+                <div className="featured-imagebox featured-imagebox-portfolio style1">
+                    {/* featured-thumbnail */}
+                    <div className="featured-thumbnail">
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/600X750/444444.jpg" />
+                    </div>{/* featured-thumbnail end*/}
+                    {/* ttm-box-view-overlay */}
+                    <div className="ttm-box-view-overlay">
+                        <div className="featured-iconbox ttm-media-link">{/* ttm-media-link */}
+                            <a onClick={() => this.setState({ isOpen: true })}><i className="ti ti-search" /></a>
+                            <a href={process.env.PUBLIC_URL + '/Single_style1'} className="ttm_link"><i className="ti ti-link" /></a>
+                        </div>
+                    </div>{/* ttm-box-view-overlay end*/}
+                    <div className="featured-content">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_style1'}>Neural Networking</a></h5>
+                        </div>
+                    </div>
+                </div>{/* featured-thumbnail */}
+            </div>
+            <div className="ttm-box-col-wrapper">
+                {/* featured-imagebox-portfolio */}
+                <div className="featured-imagebox featured-imagebox-portfolio style1">
+                    {/* featured-thumbnail */}
+                    <div className="featured-thumbnail">
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/600X750/444444.jpg" />
+                    </div>{/* featured-thumbnail end*/}
+                    {/* ttm-box-view-overlay */}
+                    <div className="ttm-box-view-overlay">
+                        <div className="featured-iconbox ttm-media-link">{/* ttm-media-link */}
+                            <a onClick={() => this.setState({ isOpen: true })}><i className="ti ti-search" /></a>
+                            <a href={process.env.PUBLIC_URL + '/Single_style1'} className="ttm_link"><i className="ti ti-link" /></a>
+                        </div>
+                    </div>{/* ttm-box-view-overlay end*/}
+                    <div className="featured-content">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_style1'}>Data Management</a></h5>
+                        </div>
+                    </div>
+                </div>{/* featured-thumbnail */}
+            </div>
+            <div className="ttm-box-col-wrapper">
+                {/* featured-imagebox-portfolio */}
+                <div className="featured-imagebox featured-imagebox-portfolio style1">
+                    {/* featured-thumbnail */}
+                    <div className="featured-thumbnail">
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/600X750/444444.jpg" />
+                    </div>{/* featured-thumbnail end*/}
+                    {/* ttm-box-view-overlay */}
+                    <div className="ttm-box-view-overlay">
+                        <div className="featured-iconbox ttm-media-link">{/* ttm-media-link */}
+                            <a onClick={() => this.setState({ isOpen: true })}><i className="ti ti-search" /></a>
+                            <a href={process.env.PUBLIC_URL + '/Single_style1'} className="ttm_link"><i className="ti ti-link" /></a>
+                        </div>
+                    </div>{/* ttm-box-view-overlay end*/}
+                    <div className="featured-content">
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_style1'}>Web Devlopment</a></h5>
+                        </div>
+                    </div>
+                </div>{/* featured-thumbnail */}
+            </div>
+        </Slider>
+    </div>
+</section>
+{/* process-section end */}
+{/* blog-section */}
+<section className="ttm-row blog-section res-991-pt-0 clearfix">
+    <div className="container-xl">
+        <div className="row">
+            <div className="col-md-12">
+                {/* section title */}
+                <div className="section-title text-center with-desc clearfix">
+                    <div className="title-header">
+                        <h5>Our Blog</h5>
+                        <h2 className="title">Check Out Our <span>Latest News</span></h2>
+                    </div>
+                </div>{/* section title end */}
+            </div>
+        </div>
+        <Slider className="row slick_slider ttm-boxes-spacing-30px" {...slick_slider} slidesToShow={3}>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-blog">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                        <div className="ttm-blog-overlay-iconbox">
+                            <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
+                        </div>
+                        <div className="ttm-box-view-overlay" />
+                    </div>
+                    <div className="featured-content">{/* featured-content */}
+                        <div className="ttm-box-post-date">{/* ttm-box-post-date */}
+                            <span className="ttm-entry-date">
+                                <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">17<span className="entry-month entry-year">Apr</span></time>
+                            </span>
+                        </div>
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>You Must Try 20 Secret Of Digital Transform</a></h5>
+                        </div>
+                        <div className="post-meta">{/* post-meta */}
+                            <span className="ttm-meta-line"><i className="fa fa-comments" />2,comments</span>
+                            <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
+                        </div>
+                        <div className="featured-desc">{/* featured-description */}
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
+                        </div>
+                        <a className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href={process.env.PUBLIC_URL + '/Single_blog'}>Read More <i className="ti ti-angle-double-right" /></a>
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-blog">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                        <div className="ttm-blog-overlay-iconbox">
+                            <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
+                        </div>
+                        <div className="ttm-box-view-overlay" />
+                    </div>
+                    <div className="featured-content">{/* featured-content */}
+                        <div className="ttm-box-post-date">{/* ttm-box-post-date */}
+                            <span className="ttm-entry-date">
+                                <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">12<span className="entry-month entry-year">Dec</span></time>
+                            </span>
+                        </div>
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Define World Best IT Solution Technology</a></h5>
+                        </div>
+                        <div className="post-meta">{/* post-meta */}
+                            <span className="ttm-meta-line"><i className="fa fa-comments" />3,comments</span>
+                            <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
+                        </div>
+                        <div className="featured-desc">{/* featured-description */}
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
+                        </div>
+                        <a className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href={process.env.PUBLIC_URL + '/Single_blog'}>Read More <i className="ti ti-angle-double-right" /></a>
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-blog">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                        <div className="ttm-blog-overlay-iconbox">
+                            <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
+                        </div>
+                        <div className="ttm-box-view-overlay" />
+                    </div>
+                    <div className="featured-content">{/* featured-content */}
+                        <div className="ttm-box-post-date">{/* ttm-box-post-date */}
+                            <span className="ttm-entry-date">
+                                <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">22<span className="entry-month entry-year">May</span></time>
+                            </span>
+                        </div>
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>10 PHP Frameworks You Need To Use Anywhere</a></h5>
+                        </div>
+                        <div className="post-meta">{/* post-meta */}
+                            <span className="ttm-meta-line"><i className="fa fa-comments" />1,comments</span>
+                            <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
+                        </div>
+                        <div className="featured-desc">{/* featured-description */}
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
+                        </div>
+                        <a className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href={process.env.PUBLIC_URL + '/Single_blog'}>Read More <i className="ti ti-angle-double-right" /></a>
+                    </div>
+                </div>
+            </div>
+            <div className="ttm-box-col-wrapper">
+                <div className="featured-imagebox featured-imagebox-blog">
+                    <div className="featured-thumbnail">{/* featured-thumbnail */}
+                        <img className="img-fluid" alt="" src="https://via.placeholder.com/654X490/444444.jpg" />
+                        <div className="ttm-blog-overlay-iconbox">
+                            <a href={process.env.PUBLIC_URL + '/Single_blog'}><i className="ti ti-plus" /></a>
+                        </div>
+                        <div className="ttm-box-view-overlay" />
+                    </div>
+                    <div className="featured-content">{/* featured-content */}
+                        <div className="ttm-box-post-date">{/* ttm-box-post-date */}
+                            <span className="ttm-entry-date">
+                                <time className="entry-date" dateTime="2019-01-16T07:07:55+00:00">04<span className="entry-month entry-year">Aug</span></time>
+                            </span>
+                        </div>
+                        <div className="featured-title">{/* featured-title */}
+                            <h5><a href={process.env.PUBLIC_URL + '/Single_blog'}>Digital Conference Of IT Tech Events in 2019</a></h5>
+                        </div>
+                        <div className="post-meta">{/* post-meta */}
+                            <span className="ttm-meta-line"><i className="fa fa-comments" />4,comments</span>
+                            <span className="ttm-meta-line"><i className="fa fa-user" />Admin</span>
+                        </div>
+                        <div className="featured-desc">{/* featured-description */}
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the...</p>
+                        </div>
+                        <a className="ttm-btn ttm-btn-size-sm ttm-btn-color-skincolor btn-inline ttm-icon-btn-right mt-20" href={process.env.PUBLIC_URL + '/Single_blog'}>Read More <i className="ti ti-angle-double-right" /></a>
+                    </div>
+                </div>
+            </div>
+        </Slider>
+    </div>
+</section>
