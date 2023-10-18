@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { createBrowserHistory } from 'history';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 export class Menu extends Component {
     render() {
