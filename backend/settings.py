@@ -159,7 +159,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'Daniameli',
         'USER': 'arashesfandiari',
-        'PASSWORD': os.environ.get('DB_PASS'),
+        'PASSWORD': 'aR119206',
+        # 'PASSWORD': os.environ.get('DB_PASS'),
         'HOST': 'arashshop-identifier.crkxmnq5alap.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
@@ -204,6 +205,7 @@ STATIC_URL = 'static/'
 MEDIA_URL = '/images/'
 
 STATICFILES_DIRS = [
+    BASE_DIR / 'frontend/build',
     BASE_DIR / 'static',
     BASE_DIR / 'frontend/build/static',
 ]
