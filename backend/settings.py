@@ -159,7 +159,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'Daniameli',
         'USER': 'arashesfandiari',
-        'PASSWORD': os.environ.get('DB_PASS'), #'aR119206',
+        'PASSWORD': os.environ.get('DB_PASS'),
         'HOST': 'arashshop-identifier.crkxmnq5alap.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
@@ -220,8 +220,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 AWS_QUERYSTRING_AUTH = False
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
-AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID'),  #'AKIASGCXKRJV3Y7D7SI4'
-AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY'), #'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'
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID'),
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY'),
 
 AWS_STORAGE_BUCKET_NAME = 'daniameli-bucket'
 
