@@ -228,3 +228,4 @@ AWS_STORAGE_BUCKET_NAME = 'daniameli-bucket'
 
 if os.getcwd() == '/app': 
     DEBUG = False
+
