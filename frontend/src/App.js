@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { createBrowserHistory } from 'history';
-import { HashRouter as Router, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -54,7 +53,7 @@ function App() {
 
   return (
     <div className="page">
-      <Router basename={process.env.PUBLIC_URL} history={history}>
+      <Router>
         <div id="preloader">
           <div id="status">&nbsp;</div>
         </div>
@@ -102,3 +101,5 @@ function App() {
 }
 
 export default App;
+
+
