@@ -84,8 +84,8 @@ export class Aboutus_01 extends Component {
                                         <h2 className="title">Furnace expertise with 20 years of <span>experience</span></h2>
                                     </div>
                                     <div className="title-desc">
-                                        <p>Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any website is the first impression on visitors. And the smart design of any website is the starting point.</p>
-                                        <p>We have a special team for website style who has been involved in designing professional websites of all categories.</p>
+                                        <p>Metallurgical Furnaces sales and installation is not only a profession but a passion at Daniameli. We have a tendency to believe that the perfect furnace can output the perfect molten metal, and therefore the perfect product. Thus, a good furnace and professional installation is the important starting point.</p>
+                                        <p>We have a special team to identify the right furnace for your purpose and deliver the highest quality product to your factory.</p>
                                     </div>
                                 </div>{/* section title end */}
                                 {/* row */}
@@ -107,14 +107,14 @@ export class Aboutus_01 extends Component {
                                         </ul>
                                     </div>
                                 </div>{/* row END*/}
-                                <p className="mb-2">High-tech industries play an important role in the modern economy, and often experience significantly higher pay than other industries. And Digital solutions have transformed the world’s for web applications.</p>
+                                <p className="mb-2">Metal industries play an important role in the modern economy, and sensetive machinery plays an important role in the metal indusry. Daniameli guarantees to provide the most accurate machinery to produce high-end products.</p>
                                 <a className="ttm-btn ttm-bgcolor-skincolor ttm-btn-size-md mt-4">More About Us</a>
                             </div>
                             <div className="col-lg-6">
                                 <div className="position-relative res-991-mt-30">
                                     {/* ttm_single_image-wrapper */}
                                     <div className="ttm_single_image-wrapper text-sm-center">
-                                        <img className="img-fluid" src="https://via.placeholder.com/533X708/444444.png" title="single-img-seven" alt="single-img-seven" />
+                                        <img className="img-fluid" src="images/home-about.jpg" title="single-img-seven" alt="single-img-seven" />
                                     </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                             </div>
