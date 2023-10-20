@@ -15,7 +15,7 @@ export class Menu extends Component {
                     <li className="menu-hasdropdown"><a>pages</a>
                         <ul className="menu-dropdown">
                             <li><Link to={'/about'}>About Us</Link></li>
-                            <li><Link to={'/contact'}>Contact Us</Link></li>
+                            <li><Link to={'/contacts'}>Contact Us</Link></li>
                         </ul>
                     </li>
                     <li className="menu-hasdropdown"><a>services</a>
