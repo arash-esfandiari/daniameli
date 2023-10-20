@@ -63,14 +63,14 @@ function App() {
         <Route path='/home3' component={Home3} />
         <Route path='/header_style_02' component={Home2_Header2} />
         <Route path='/header_style_03' component={Home3_Header3} />
-        <Route path="/aboutus_01" component={Aboutus_01} />
+        <Route path="/about" component={Aboutus_01} />
         <Route path="/aboutus_02" component={Aboutus_02} />
         <Route path="/services_01" component={Services_01} />
         <Route path="/services_02" component={Services_02} />
         <Route path="/our_expert" component={Our_expert} />
         <Route path="/team_detail" component={Team_detail} />
         <Route path="/faq" component={Faq} />
-        <Route path="/contact_01" component={Contact_01} />
+        <Route path="/contact" component={Contact_01} />
         <Route path="/contact_02" component={Contact_02} />
         <Route path="/error" component={Error} />
         <Route path="/element" component={Element} />

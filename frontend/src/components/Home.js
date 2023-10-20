@@ -205,7 +205,7 @@ export class Home extends Component {
                                 <div className="section-title with-desc text-center clearfix">
                                     <div className="title-header">
                                         <h5>Our Services</h5>
-                                        <h2 className="title">We run all kinds of services in form of <span>Information &amp; Technologies</span></h2>
+                                        <h2 className="title">We run all kinds of services in form of <span>Furnaces &amp; Medical References</span></h2>
                                     </div>
                                 </div>{/* section title end */}
                             </div>
