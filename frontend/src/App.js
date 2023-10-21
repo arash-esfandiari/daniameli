@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { createBrowserHistory } from 'history';
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -95,6 +95,7 @@ function App() {
         <Route path="/products" component={Product_details} />
         <Route path="/cart" component={Cart} />
         <Route path="/checkout" component={Checkout} />
+        <Redirect to="/" />
         <Footer />
       </Router>
     </div>
