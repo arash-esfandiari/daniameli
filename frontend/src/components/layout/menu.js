@@ -7,34 +7,45 @@ export class Menu extends Component {
         return (
             <nav id="menu" role="navigation" className="menu">
                 <ul>
-                    <li className="menu-hasdropdown"><a>Home</a>
+                    <li className="menu-hasdropdown"><a>Foundry Equipment</a>
                         <ul className="menu-dropdown">
-                            <li><Link to='/'>Homepage</Link></li>
+                            <li><Link to='/'>Induction Furnaces</Link></li>
+                            <li><Link to='/'>Electric Arc Furnaces</Link></li>
+                            <li><Link to='/'>Ladle Furnaces</Link></li>
+                            <li><Link to='/'>CCM Lines</Link></li>
+                            <li><Link to='/'>Sand Plants</Link></li>
+                            <li><Link to='/'>Disa Lines</Link></li>
+                            <li><Link to='/'>HWS Lines</Link></li>
+                            <li><Link to='/'>Mixers</Link></li>
                         </ul>
                     </li>
-                    <li className="menu-hasdropdown"><a>pages</a>
+                    <li className="menu-hasdropdown"><a>Rolling Mill Lines</a>
+                        <ul className="menu-dropdown">
+                            <li><Link to={'/'}>Hot Rolling Mill</Link></li>
+                            <li><Link to={'/'}>Cold Rolling Mill</Link></li>
+                        </ul>
+                    </li>
+                    <li className="menu-hasdropdown"><a>Industrial Equipment</a>
+                        <ul className="menu-dropdown">
+                            <li><Link to={'/'}>Industrial Equipment</Link></li>
+                        </ul>
+                    </li>
+                    <li className="menu-hasdropdown"><a>Raw Material</a>
+                        <ul className="menu-dropdown">
+                            <li><Link to={'/'}>Raw Material</Link></li>
+                        </ul>
+                    </li>
+                    <li className="menu-hasdropdown"><a>More</a>
+                        <ul className="menu-dropdown">
+                            <li><Link to={'/'}>Parts</Link></li>
+                            <li><Link to={'/'}>Electrical Equipment</Link></li>
+                            <li><Link to={'/'}>Food and Dairy Equipment</Link></li>
+                            <li><Link to={'/'}>Reference Standards (Chemical Reagents)</Link></li>
+                        </ul>
+                    </li>
+                    <li className="menu-hasdropdown"><a>About Us</a>
                         <ul className="menu-dropdown">
                             <li><Link to={'/about'}>About Us</Link></li>
-                            <li><Link to={'/contacts'}>Contact Us</Link></li>
-                        </ul>
-                    </li>
-                    <li className="menu-hasdropdown"><a>services</a>
-                        <ul className="menu-dropdown">
-                            <li><Link to={'/it_consultancy'}>IT Consultancy</Link></li>
-                            <li><Link to={'/digital_services'}>Digital Services</Link></li>
-                            <li><Link to={'/advisory_services'}>Advisory Services</Link></li>
-                            <li><Link to={'/data_structuring'}>Data Structuring</Link></li>
-                            <li><Link to={'/experience_design'}>Experience Design</Link></li>
-                            <li><Link to={'/content_engineering'}>Content Engineering</Link></li>
-                        </ul>
-                    </li>
-
-                    <li className="menu-hasdropdown"><a>Shop</a>
-                        <ul className="menu-dropdown">
-                            <li><Link to={'/Shop'}>Default Shop</Link></li>
-                            <li><Link to={'/Product_details'}>Single Product Details</Link></li>
-                            <li><Link to={'/Cart'}>Cart</Link></li>
-                            <li><Link to={'/Checkout'}>Checkout</Link></li>
                         </ul>
                     </li>
                 </ul>

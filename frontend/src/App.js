@@ -95,7 +95,7 @@ function App() {
         <Route path="/products" component={Product_details} />
         <Route path="/cart" component={Cart} />
         <Route path="/checkout" component={Checkout} />
-        <Redirect to="/" />
+
         <Footer />
       </Router>
     </div>
