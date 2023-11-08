@@ -50,12 +50,12 @@ export class Header extends Component {
                 <div className="ttm-header-wrap">
                     <div id="navbar" className="ttm-stickable-header clearfix">
                         <div className="site-header-menu">
-                            <div className="container-xl">
+                            <div className="container-fluid mx-5">
                                 {/* site-branding */}
-                                <div className="site-branding ">
-                                    <a className="home-link" href={process.env.PUBLIC_URL + '/'} title="Daniameli" rel="home">
-                                        <img id="logo-img" className="img-fluid" alt="logo" src="images/txt-logo.png" />
-                                    </a>
+                                <div className="site-branding" >
+                                    <Link to='/'>
+                                        <img className='img-fluid' alt="logo" src="images/txt-logo.png" />
+                                    </Link>
                                 </div>
                                 {/* site-branding end*/}
                                 {/*site-navigation */}

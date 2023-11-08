@@ -3,6 +3,7 @@ import { MDBAnimation, MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCar
     "mdbreact";
 
 
+
 export class CarouselPage extends Component {
     render() {
         const headerStyle = {

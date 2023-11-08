@@ -35,12 +35,22 @@ export class Menu extends Component {
                             <li><Link to={'/'}>Raw Material</Link></li>
                         </ul>
                     </li>
+                    <li className="menu-hasdropdown"><a>Electrical Equipment</a>
+                        <ul className="menu-dropdown">
+                            <li><Link to={'/about'}>Electromotors</Link></li>
+                            <li><Link to={'/about'}>Drivers and Inverters</Link></li>
+                            <li><Link to={'/about'}>Electropumps</Link></li>
+                        </ul>
+                    </li>
+                    <li className="menu-hasdropdown"><a>Parts </a>
+                        <ul className="menu-dropdown">
+                            <li><Link to={'/about'}>Spare parts for all the above equipment</Link></li>
+                        </ul>
+                    </li>
                     <li className="menu-hasdropdown"><a>More</a>
                         <ul className="menu-dropdown">
-                            <li><Link to={'/'}>Parts</Link></li>
-                            <li><Link to={'/'}>Electrical Equipment</Link></li>
-                            <li><Link to={'/'}>Food and Dairy Equipment</Link></li>
                             <li><Link to={'/'}>Reference Standards (Chemical Reagents)</Link></li>
+                            <li><Link to={'/'}>Food and Dairy Equipment</Link></li>
                         </ul>
                     </li>
                     <li className="menu-hasdropdown"><a>About Us</a>
