@@ -56,6 +56,7 @@ export class Home2_mainpage extends Component {
           phoneNumber="+491608910049"
           accountName="Daniameli"
           avatar='images/favicon.png'
+          allowEsc
           notification
           notificationSound
         />
