@@ -31,7 +31,7 @@ export class CarouselPage2 extends Component {
                                                 <h2 className="ttm-textcolor-darkgrey">Industry Leading Furnaces and Machinery. <strong className="ttm-textcolor-skincolor">25 Years of Experience</strong></h2>
                                             </MDBAnimation>
                                             <MDBAnimation className="slideInUp" count={1} delay="3s" >
-                                                <p className="text">Sales and Installation of Induction Furnaces. With more than 25 years of technical and field experience. </p>
+                                                <p className="text">Sales and Installation of Induction Furnaces. With more than 25 Years of Technical and Field Experience. </p>
                                             </MDBAnimation>
                                             <MDBAnimation className="slideInUp" count={1} delay="3.5s" >
                                                 <p>
@@ -64,7 +64,7 @@ export class CarouselPage2 extends Component {
                                                 <h5 className="ttm-textcolor-skincolor">Trust and Client Focus&nbsp;&nbsp;&nbsp;</h5>
                                             </MDBAnimation>
                                             <MDBAnimation className="slideInUp" count={1} delay="5.5s" >
-                                                <h2 className="ttm-textcolor-darkgrey">Top quality<strong className="ttm-textcolor-skincolor">Industrial Equipment</strong> And spare parts</h2>
+                                                <h2 className="ttm-textcolor-darkgrey">Top Quality<strong className="ttm-textcolor-skincolor"> Industrial Equipment</strong> and Spare Parts</h2>
                                             </MDBAnimation>
                                             <MDBAnimation className="slideInUp" count={1} delay="6s" >
                                                 <p className="text">Daniameli offers only the best equipment and machinery; we strive for excellence</p>

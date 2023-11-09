@@ -5,6 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import FadeIn from 'react-fade-in';
 import CarouselPage2 from './banner/Home2_banner';
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 export class Home2_mainpage extends Component {
   render() {
@@ -51,6 +52,13 @@ export class Home2_mainpage extends Component {
     };
     return (
       <div className="site-main">
+        <FloatingWhatsApp
+          phoneNumber="+491608910049"
+          accountName="Daniameli"
+          avatar='images/favicon.png'
+          notification
+          notificationSound
+        />
         <section className="ttm-row aboutus-section-style2 clearfix">
           <div className="container-xl">
             <div className="row no-gutters align-items-center">{/* row */}
@@ -65,12 +73,12 @@ export class Home2_mainpage extends Component {
                   {/* section title */}
                   <div className="section-title with-desc clearfix">
                     <div className="title-header">
-                      <h5>About Daniameli</h5>
+                      <h5>About Daniameli's Management</h5>
                       <h2 className="title">Daniameli With more than 25 years of <span>experience</span></h2>
                     </div>
                     <div className="title-desc">
-                      <p>Metallurgical Furnaces sales and installation is not only a profession but a passion at Daniameli. We have a tendency to believe that the perfect furnace can output the perfect molten metal, and therefore the perfect product. Thus, a good furnace and professional installation is the important starting point.</p>
-                      <p>We have a special team to identify the right furnace for your purpose and deliver the highest quality product to your factory.</p>
+                      <p>Expertise in metallurgy related products. Metallurgy such as sales and installation is not only a profession but a passion at Daniameli. We have a tendency to believe that the perfect equipment can output the perfect molten metal, and therefore the perfect product. Thus, a good furnace and professional installation is key.</p>
+                      <p>We have a team of experts to identify the right furnace for your project and deliver the highest quality product to your factory.</p>
                     </div>
                   </div>{/* section title end */}
                   {/* row */}
@@ -85,10 +93,10 @@ export class Home2_mainpage extends Component {
                         </div>
                         <div className="featured-content">{/*  featured-content */}
                           <div className="featured-title">{/*  featured-title */}
-                            <h5>Award Ceremony</h5>
+                            <h5>Quick Resppnse and Delivery</h5>
                           </div>
                           <div className="featured-desc">{/*  featured-desc */}
-                            <p>Quickly productivate just in time strategic theme.</p>
+                            <p>Quickly productivate just in time strategy.</p>
                           </div>
                         </div>
                       </div>{/*  featured-icon-box END */}
@@ -103,10 +111,10 @@ export class Home2_mainpage extends Component {
                         </div>
                         <div className="featured-content">{/*  featured-content */}
                           <div className="featured-title">{/*  featured-title */}
-                            <h5>Certified Company</h5>
+                            <h5>Guaranteed Product</h5>
                           </div>
                           <div className="featured-desc">{/*  featured-desc */}
-                            <p>Quickly productivate just in time strategic theme.</p>
+                            <p>Top quality product 100% guaranteed by Daniameli and management</p>
                           </div>
                         </div>
                       </div>{/*  featured-icon-box END */}
@@ -119,19 +127,19 @@ export class Home2_mainpage extends Component {
                   {/* separator */}
                   <div className="row align-items-center">
                     <div className="col-md-3 col-lg-4 col-5">
-                      <div className="text-left pt-15">
+                      {/* <div className="text-left pt-15">
                         <img className="img-fluid" src="https://via.placeholder.com/145X60/444444.png" alt="about-sign" />
-                      </div>
+                      </div> */}
                     </div>
                     <div className="col-md-9 col-lg-8 col-7">
                       {/*  featured-icon-box */}
                       <div className="featured-icon-box without-icon text-left pt-15">
                         <div className="featured-content">{/*  featured-content */}
                           <div className="featured-title">{/*  featured-title */}
-                            <h5>Jhon Martin</h5>
+                            <h5>Majid Esfandiari</h5>
                           </div>
                           <div className="featured-desc">{/*  featured-desc */}
-                            <p>Chairman &amp; Founder Altech</p>
+                            <p>Chairman &amp; Founder Daniameli</p>
                           </div>
                         </div>
                       </div>{/*  featured-icon-box END */}
@@ -159,8 +167,8 @@ export class Home2_mainpage extends Component {
                       {/* section title */}
                       <div className="section-title mb-4 clearfix">
                         <div className="title-header">
-                          <h5>About Altech</h5>
-                          <h2 className="title">Trusted by 5,000+ <span>Happy Customers</span></h2>
+                          <h5>About Daniameli</h5>
+                          <h2 className="title">Trusted by 100+<span>Happy Customers</span></h2>
                         </div>
                         <div className="title-desc">
                           <p>We listen. We advise. We design, together. Happy customers and ongoing relationships are what we strive for. Success is measured by results, the most important being how our clients feel about their experience with us. These reviews we’re onto something.</p>

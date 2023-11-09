@@ -25,7 +25,7 @@ export class Header extends Component {
                             <div className="col-lg-7">
                                 <div className="topbar-right text-right d-flex justify-content-end">
                                     <ul className="top-contact">
-                                        <li><i className="far fa-clock" />&nbsp;&nbsp;Office Hour: Mon to Friday 09:00 - 16:00</li>
+                                        <li><i className="far fa-clock" />&nbsp;&nbsp;Office Hours: Mon to Friday 09:00 - 16:00</li>
                                     </ul>
                                     <div className="ttm-social-links-wrapper list-inline">
                                         <ul className="social-icons">
