@@ -66,7 +66,7 @@ export class Home2_mainpage extends Component {
               <div className="col-lg-6 res-991-text-center res-991-mb-40">
                 {/* ttm_single_image-wrapper */}
                 <div className="ttm_single_image-wrapper">
-                  <img className="img-fluid" src="images/home-bg2.jpg" title="single-img-two" alt="single-img-two" />
+                  <img className="img-fluid" src="images/crane.jpg" title="single-img-two" alt="single-img-two" />
                 </div>{/* ttm_single_image-wrapper end */}
               </div>
               <div className="col-lg-6">
@@ -452,7 +452,7 @@ export class Home2_mainpage extends Component {
                                 <div className="grey-border res-991-mt-30 text-left">
                                   {/* ttm_single_image-wrapper */}
                                   <div className="ttm_single_image-wrapper with-border15">
-                                    <img className="img-fluid grey-boder" src="https://via.placeholder.com/495X432/444444.jpg" title="single-img-three" alt="single-img-three" />
+                                    <img className="img-fluid grey-boder" src="crane.jpg" title="single-img-three" alt="single-img-three" />
                                   </div>{/* ttm_single_image-wrapper end */}
                                 </div>
                               </div>
